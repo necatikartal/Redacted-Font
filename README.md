@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/christiannaths/Redacted-Font.svg?branch=master)](https://travis-ci.org/christiannaths/Redacted-Font)
+
+
 # Redacted: A Font for Web and Desktop
 
 Keep your wireframes free of distracting Lorem Ipsum.
@@ -16,13 +19,23 @@ Keep your wireframes free of distracting Lorem Ipsum.
 
 ## Usage
 
-Assuming the font assets reside in a "redacted-font" directory:
+### Download!
+
+[Download the Reacted Font](https://github.com/christiannaths/Redacted-Font/archive/old-sources.zip)
+
+
+### Find the files you need!
+Look in the `fonts/` directory for the desktop fonts, and the `fonts/web/` directory for the web fonts.
+
+### Use!
+Either install the ttf desktop fonts on your machine, or use the fontface kit in the `web/` directory. Assuming the font assets reside in a "redacted-font" directory:
 
 ```css
 @font-face {
     font-family: "Redacted";
     src: url("redacted-font/fonts/web/redacted-regular.eot");
-    src: url("redacted-font/fonts/web/redacted-regular.woff") format("woff"),
+    src: url("redacted-font/fonts/web/redacted-regular.woff2") format("woff2"),
+         url("redacted-font/fonts/web/redacted-regular.woff") format("woff"),
          url("redacted-font/fonts/web/redacted-regular.otf") format("opentype"),
          url("redacted-font/fonts/web/redacted-regular.svg#filename") format("svg");
 }
